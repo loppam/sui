@@ -1,0 +1,10 @@
+[package]
+name = "my_token"
+version = "0.1.0"
+
+[dependencies]
+Sui = { git = "git@github.com:MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+my_token = "0x0"
+sui = "0x2"
