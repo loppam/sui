@@ -7,6 +7,7 @@ module my_token::managed {
     use sui::sui::SUI;
     use sui::event;
 
+
     // Error codes
     const E_TRADING_DISABLED: u64 = 1;
     const E_INSUFFICIENT_PAYMENT: u64 = 2;

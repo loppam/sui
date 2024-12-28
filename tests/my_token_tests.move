@@ -1,7 +1,7 @@
 /*
 #[test_only]
 module my_token::my_token_tests;
-// uncomment this line to import the module
+/// uncomment this line to import the module
 // use my_token::my_token;
 
 const ENotImplemented: u64 = 0;
